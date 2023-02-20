@@ -25,7 +25,7 @@ The following arguments are necessary in order to run the apps:
 5)PostgreSQL password
 6)PostgreSQL url 
 7)PostgreSQL table name
-Also, the apps need two external jars: druid-spark connector and PostgreSQL driver. These jars need to be placed in the master's file space and their paths can be added using the following argument: `--jars /path/to/jar,path/to/jar`. 
+Also, the apps need two external jars: [spark-druid connector](https://github.com/SharpRay/spark-druid-connector) and [PostgreSQL driver](https://mvnrepository.com/artifact/org.postgresql/postgresql/42.2.11). These jars need to be placed in the master's file space and their paths can be added using the following argument: `--jars /path/to/jar,path/to/jar`. 
 
 # PostgreSQL scripts
 There exist four scripts that need to be called. Two of them are for the first app and two of them for the second one. All of them take the same input:
