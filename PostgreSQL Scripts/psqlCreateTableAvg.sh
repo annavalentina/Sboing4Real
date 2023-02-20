@@ -1,0 +1,8 @@
+#!/bin/bash
+
+psql --command="CREATE TABLE $6(SEGMENTID TEXT,DAY INTEGER,HOUR INTEGER ,COUNT INTEGER, SUM REAL, AVG REAL, WAVG REAL,DATE TIMESTAMP);" postgresql://$1:$2@$3:$4/$5
+
+
+
+
+
